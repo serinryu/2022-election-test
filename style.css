@@ -1,0 +1,19 @@
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress {
+    width: 70%;
+    margin: auto;
+}
+
+button {
+    margin: auto;
+    width: 80%;
+}
+
+.hidden {
+    display: none;
+}
+
