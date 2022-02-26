@@ -1,0 +1,82 @@
+/* shared */
+body{
+    font-family: 'Noto Serif KR', serif;
+    width: 360px;
+    min-height: 667px;
+    margin: 0 auto !important;
+}
+.explain{
+    font-size: 12px;
+    color: gray;
+}
+article {
+    background-color: rgb(234, 231, 222);
+    border: 1px rgb(184, 184, 184) solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 667px;
+    padding-bottom: 20px;
+}
+button {
+    margin: auto;
+    width: 80%;
+}
+button:hover {
+    background-color: black !important;
+    color: white !important;
+}
+.hidden {
+    display: none;
+}
+.progress {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* startPage */
+#startPage{
+    height: 667px;
+}
+.startTitle {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;   
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: rgb(0, 0, 0);
+}
+.startExplain1 {
+    margin-top: 100px;
+}
+#startBtn {
+    margin-top: 70px;
+}
+.startExplain2 {
+    margin-bottom: 80px;
+}
+
+
+/* questionPage */
+#A, #B, #C, #D {
+    font-size: 12px;
+}
+
+/* resultPage */
+#resultPage{
+    height: 667px;
+    padding: 40px 40px;
+}
+#candidate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#candidateParty{
+    margin-right: 20px;
+}

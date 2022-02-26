@@ -1,9 +1,9 @@
 let num = 1;
 let result = {
-    "이재명": {},
-    "윤석열": {},
-    "심상정": {},
-    "안철수": {}
+    "이재명": {"소속":"더불어민주당"},
+    "윤석열": {"소속":"국민의힘"},
+    "심상정": {"소속":"정의당"},
+    "안철수": {"소속":"국민의당"}
 }
 const startPage = document.getElementById("startPage");
 const startBtn = document.getElementById("startBtn");
@@ -19,6 +19,7 @@ const progressbar = document.getElementById("progress-bar");
 const resultPage = document.getElementById("resultPage");
 const candidate = document.getElementById("candidate");
 const candidateName = document.getElementById("candidateName");
+const candidateParty = document.getElementById("candidateParty");
 const candidate1 = document.getElementById("candidate1__bar");
 const candidate2 = document.getElementById("candidate2__bar");
 const candidate3 = document.getElementById("candidate3__bar");
@@ -36,9 +37,13 @@ function finalresult(){
     /* 상위 후보 이름 */
     for (let i=0; i<arr.length; i++){
         if(arr[i]==maxvalue){
-            let candidate = document.createElement("h3")
-            candidate.innerText+=Object.keys(result)[i];
-            candidateName.appendChild(candidate);
+            let candidateparty = document.createElement("p")
+            let candidatename = document.createElement("p")
+            let candidate = Object.keys(result)[i];
+            candidatename.innerText+= candidate;
+            candidateparty.innerText+= result[candidate]['소속'];
+            candidateName.appendChild(candidatename);
+            candidateParty.appendChild(candidateparty);
         }
     }
     /* 후보별 그래프 */
