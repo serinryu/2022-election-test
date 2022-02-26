@@ -11,7 +11,7 @@ https://2022-election-test.netlify.app/
 
 
 ![mobile (4)](https://user-images.githubusercontent.com/74564995/155836305-3ec9c3d1-542b-421b-a5f3-405c47772a9d.png)
-![mobile (1)](https://user-images.githubusercontent.com/74564995/155836098-2cac667b-f448-4a52-8795-fdb2f66a43f8.png)
+![mobile (5)](https://user-images.githubusercontent.com/74564995/155836447-5e320be1-cc9e-4ab5-ae56-468bce831b11.png)
 ![mobile (2)](https://user-images.githubusercontent.com/74564995/155836102-517b4deb-0ec7-4b69-9de6-fe36d9acc337.png)
 
 
