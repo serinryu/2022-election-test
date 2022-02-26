@@ -6,16 +6,15 @@ https://2022-election-test.netlify.app/
 
 ## 1️⃣ 프로젝트 소개
 나와 비슷한 생각을 가진 2022 대선 후보자는 누구일까? 🧐 
+
 9개의 분야에 대한 후보자들의 공약과 발언만을 보고 나와 가장 비슷한 생각을 가진 후보자를 매칭하는 테스트입니다.
 
-1. 시작화면
 
-![mobile (3)](https://user-images.githubusercontent.com/74564995/155836122-fad116a8-d93e-4818-8301-f63fd0b05c7b.png)
-
-2. 질문화면 및 결과화면
-
+![mobile (4)](https://user-images.githubusercontent.com/74564995/155836305-3ec9c3d1-542b-421b-a5f3-405c47772a9d.png)
 ![mobile (1)](https://user-images.githubusercontent.com/74564995/155836098-2cac667b-f448-4a52-8795-fdb2f66a43f8.png)
 ![mobile (2)](https://user-images.githubusercontent.com/74564995/155836102-517b4deb-0ec7-4b69-9de6-fe36d9acc337.png)
+
+
 
 
 ## 2️⃣ 기술 설명
